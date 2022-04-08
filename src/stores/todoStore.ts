@@ -9,4 +9,9 @@ export const useTodos = defineStore('todos', {
   state: (): TodoState => ({
     todos: [],
   }),
+  getters: {
+    todoList(state: TodoState) {
+      return state.todos;
+    },
+  },
 });

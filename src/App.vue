@@ -20,7 +20,7 @@ import { useTodos } from './stores/todoStore';
 const input = ref<string>('');
 
 const todoStore = useTodos();
-console.log(todoStore.todos);
+console.log(todoStore.todoList);
 </script>
 
 <style lang="scss">
