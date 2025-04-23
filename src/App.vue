@@ -24,7 +24,7 @@ console.log(todoStore.todoList);
 </script>
 
 <style lang="scss">
-@import './assets/scss/base.scss';
+@use './assets/scss/base.scss';
 
 .card {
   width: 500px;
